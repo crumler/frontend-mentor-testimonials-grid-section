@@ -86,16 +86,15 @@ body {
   margin-right: 1.5em;
 }
 
-.quotation_img {
-  display: inline-block;
-}
-
 /* ----- Main ----- */
 
 /* ----- Daniel Testimonial ----- */
 
 .daniel_container {
   background-color: var(--moderate-violet);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 1%;
   grid-area: 1 / 1 / 2 / 3;
 }
 
