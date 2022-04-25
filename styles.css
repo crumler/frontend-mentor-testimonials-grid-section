@@ -2,6 +2,7 @@
 
 
 :root {
+  --ff: 'Barlow Semi Condensed', sans-serif;
   --moderate-violet: hsl(263, 55%, 52%);
   --very-dark-grayish-blue: hsl(217, 19%, 35%);
   --very-dark-blackish-blue: hsl(219, 29%, 14%);
@@ -17,16 +18,18 @@
 }
 
 body {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: var(--ff);
   font-size: 13px;
   font-weight: 500;
   background-color: var(--light-grayish-blue);
 }
 
+
 /* ----- Frontend Mentor-specific Stylings ----- */
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
 
 /* ----- Utilities ----- */
 
@@ -59,9 +62,7 @@ body {
   opacity: 50%;
 }
 
-.text_container {
-  width: 100%;
-}
+.text_container { width: 100%; }
 
 .text_container--headline {
   font-size: 1.5rem;
@@ -86,6 +87,7 @@ body {
   margin-right: 1.5em;
 }
 
+
 /* ----- Main ----- */
 
 /* ----- Daniel Testimonial ----- */
@@ -99,9 +101,8 @@ body {
 }
 
 .daniel_headline,
-.daniel_description {
-  color: var(--white);
-}
+.daniel_description { color: var(--white); }
+
 
 /* ----- Jonathan Testimonial ------ */
 
@@ -111,9 +112,8 @@ body {
 }
 
 .jonathan_headline,
-.jonathan_description {
-  color: var(--white);
-}
+.jonathan_description { color: var(--white); }
+
 
 /* ----- Jeanette Testimonial ----- */
 
@@ -125,14 +125,11 @@ body {
 }
 
 .header_text_container--name--jeanette,
-.header_text_container--title--jeanette {
-  color: var(--very-dark-grayish-blue);
-}
+.header_text_container--title--jeanette { color: var(--very-dark-grayish-blue); }
 
 .jeanette_headline,
-.jeanette_description {
-  color: var(--very-dark-grayish-blue);
-}
+.jeanette_description { color: var(--very-dark-grayish-blue); }
+
 
 /* ----- Patrick Testimonial ----- */
 
@@ -142,9 +139,8 @@ body {
 }
 
 .patrick_headline,
-.patrick_description {
-  color: var(--white);
-}
+.patrick_description { color: var(--white); }
+
 
 /* ----- Kira Testimonial ----- */
 
@@ -161,6 +157,7 @@ body {
 .kira_description {
   color: var(--very-dark-grayish-blue);
 }
+
 
 /* ----- Media Queries ----- */
 
