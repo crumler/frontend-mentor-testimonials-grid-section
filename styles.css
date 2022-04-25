@@ -120,6 +120,8 @@ body {
 .jeanette_container {
   background-color: var(--white);
   grid-area: 2 / 1 / 3 / 2;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27);
 }
 
 .header_text_container--name--jeanette,
@@ -149,6 +151,8 @@ body {
 .kira_container {
   background-color: var(--white);
   grid-area: 1 / 4 / 3 / 5;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27);
 }
 
 .header_text_container--name--kira,
@@ -160,7 +164,7 @@ body {
 
 /* ----- Media Queries ----- */
 
-@media (min-width: 1245px) {
+@media (min-width: 1000px) {
   .container { margin: 2em auto; }
 
   .grid_container {
@@ -171,5 +175,8 @@ body {
     grid-row-gap: 1.5em;
   }
 
-  .testimonial_container { margin: 0; }
+  .testimonial_container {
+    margin: 0;
+    padding: 2.5em;
+  }
 }
