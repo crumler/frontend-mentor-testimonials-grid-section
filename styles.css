@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+:root {
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: var(--light-grayish-blue);
+}
+
+/* ----- Utilities ----- */
+
+.container {
+  width: 87%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.testimonial_container {
+  width: 100%;
+  margin: 1.5em auto;
+  padding: 3em;
+  border-radius: 3%;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header_text_container--name {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.header_text_container--title {
+  color: var(--white);
+  opacity: 50%;
+}
+
+.text_container {
+  width: 100%;
+}
+
+.text_container--headline {
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+.text_container--description {
+  opacity: 70%;
+  margin-top: 1em;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+
+/* ----- Global ----- */
+
+.profile_img {
+  height: 3em;
+  width: auto;
+  border-radius: 100px;
+  border: 2px solid var(--light-gray);
+  margin-right: 1.5em;
+}
+
+.quotation_img {
+  display: inline-block;
+}
+
+/* ----- Main ----- */
+
+/* ----- Daniel Testimonial ----- */
+
+.daniel_container {
+  background-color: var(--moderate-violet);
+}
+
+.daniel_headline,
+.daniel_description {
+  color: var(--white);
+}
+
+/* ----- Jonathan Testimonial ------ */
+
+.jonathan_container {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.jonathan_headline,
+.jonathan_description {
+  color: var(--white);
+}
+
+/* ----- Jeanette Testimonial ----- */
+
+.jeanette_container {
+  background-color: var(--white);
+}
+
+.header_text_container--name--jeanette,
+.header_text_container--title--jeanette {
+  color: var(--very-dark-grayish-blue);
+}
+
+.jeanette_headline,
+.jeanette_description {
+  color: var(--very-dark-grayish-blue);
+}
+
+/* ----- Patrick Testimonial ----- */
+
+.patrick_container {
+  background-color: var(--very-dark-blackish-blue);
+}
+
+.patrick_headline,
+.patrick_description {
+  color: var(--white);
+}
+
+/* ----- Kira Testimonial ----- */
+
+.kira_container {
+  background-color: var(--white);
+}
+
+.header_text_container--name--kira,
+.header_text_container--title--kira,
+.kira_headline,
+.kira_description {
+  color: var(--very-dark-grayish-blue);
+}
